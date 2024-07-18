@@ -359,7 +359,136 @@ margin-left: 54px;
 margin-bottom: 40px;
 }
 
+.BMI-calculator{
+    width: 1440px;
+height: 200px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+margin-top: 88px;
+margin-bottom: 30px;
+
+
+}
+.text-bmi h1{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+margin-bottom: 14px;
+}
+.text-bmi p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+.new-cal{
+    width: 1440px;
+height: 487px;
+background: rgb(34, 34, 34);
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+gap: 175px;
+}
+.bmi-chart h6{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900px;
+width: 443px;
+height: 34px;
+margin-left: 187px;
+margin-top: 52px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+th {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: left;
+}
+
+
+.bmi-form h6{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+width: 443px;
+height: 34px;
+margin-bottom: 14px;
+}
+.bmi-form p{
+
+
+color: rgba(255, 255, 255, 0.6);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+
+}
+form {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px 40px 12px 20px;
+    margin: 0px 12px;
+    width: 282.5px;
+height: 48px;
+display: grid;
+ grid-template-columns: repeat(2,3fr);
 
 
 
 
+
+
+
+}
+
+label {
+    margin-top: 10px;
+}
+
+input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 20px;
+    padding: 12px 20px 12px 20px;
+
+}
+
+
+
+select{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+width: 200px;
+height: 20px;
+padding: 12px 20px 12px 20px;
+}
+
+.bmi-form button{
+    border-radius: 42px;
+background: rgb(230, 83, 60);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+margin-top: 14px;
+}
