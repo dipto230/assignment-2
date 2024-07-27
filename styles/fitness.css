@@ -579,3 +579,55 @@ font-weight: 400;
     margin: 0;
     color: #aaa;
 }
+
+
+
+.traning-excersise{
+    /* width: 1440px;
+height: 2811px; */
+margin-top: 200px;
+display: flex;
+/* text-align: center;
+justify-content: center; */
+margin-left: 300px;
+margin-right: 579px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.traning-excersise-text h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+text-align: left;
+
+}
+.traning-excersise-text p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+
+.exercise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    max-width: 1100px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+.exercise-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.exercise-item img {
+    width: 100%;
+    display: block;
+}
