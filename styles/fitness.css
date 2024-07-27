@@ -437,7 +437,7 @@ margin-bottom: 14px;
 
 color: rgba(255, 255, 255, 0.6);
 font-family: Inter;
-font-size: 16px;
+font-size: 10px;
 font-weight: 400;
 
 }
@@ -450,7 +450,13 @@ form {
     width: 282.5px;
 height: 48px;
 display: grid;
- grid-template-columns: repeat(2,3fr);
+ grid-template-columns: repeat(4,1fr);
+ /* grid-template-columns: 1fr 1fr; */
+ gap: 10px;
+ max-width: 400px;
+ width: 100%;
+ margin-right: 200px;
+ 
 
 
 
@@ -459,6 +465,7 @@ display: grid;
 
 
 }
+
 
 label {
     margin-top: 10px;
@@ -467,9 +474,10 @@ label {
 input{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    width: 200px;
+    width: 150px;
     height: 20px;
     padding: 12px 20px 12px 20px;
+    
 
 }
 
@@ -490,5 +498,84 @@ color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 18px;
 font-weight: 600;
-margin-top: 14px;
+margin-top: 100px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+/* grid-column: span 1; */
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.our-team{
+    width: 1060px;
+height: 782px;
+margin: 0 auto;
+margin-top: 88px;
+display: flex;
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 200px;
+}
+.our-team-text h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+margin-bottom: 14px;
+}
+.our-team-text p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+
+.description-dp{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+}
+.team-member {
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+.team-member img {
+    width: 100%;
+    /* border-radius: 100%; */
+}
+.team-member h3 {
+    margin: 10px 0 5px;
+}
+.team-member p {
+    margin: 0;
+    color: #aaa;
 }
