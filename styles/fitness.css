@@ -690,3 +690,18 @@ margin-top: 20px;
     justify-content: space-around;
     margin-top: 100px;
 }
+@media screen and (max-width : 576px){
+    .nav-bar h2{
+        flex-direction: column;
+    }
+    .picture-dp{
+        flex-direction: column;
+    }
+    .change-your-habbit{
+        flex-direction: column;
+    }
+   .dp-section{
+    flex-direction: column;
+   }
+   
+}
